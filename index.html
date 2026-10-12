@@ -3,11 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>responsive_site</title>
   </head>
-  <body class="bg-gradient-to-tr from-violet-500 to-orange-300">
-  <div class="min-h-screen"></div>
+  <body class="bg-linear-to-r from-blue-700 via-blue-800 to-gray-900 text-white">
+  <div class="min-h-screen px-6 py-3  flex flex-col gap-10">
+    <header class="flex justify-between">
+      <a href="" class="flex items-center">
+        <h1 class="text-4xl font-bold">
+          WFA.
+        </h1>
+      </a>
+      <div>
+        <i class="fa-solid fa-bars fa-2x"></i>
+      </div>
+    </header>
+
+    <main>
+        <div class="flex items-center justify-center">
+          <img src="https://img.magnific.com/free-vector/cute-man-working-laptop-with-coffee-cartoon-vector-icon-illustration-people-technology-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-3869.jpg?semt=ais_hybrid&w=740&q=80" alt="" class="rounded-2xl shadow-2xl shadow-blue-300">
+        </div>
+
+        <div class="space-y-6 mt-16">
+          <div class="text-7xl font-bold leading-tight">
+              <h1>Let's Switch</h1>
+              <h1>To Remote</h1>
+          </div>
+          <p>WFA povided top-notch office spaces in prime location across 150+ countries.</p>
+          <form action="" class="flex flex-col gap-2">
+               <input type="text" placeholder="Entere City" class="" />
+               <button>Find your Office</button>
+          </form>
+
+          <div>
+            <p>Used by these companies:</p>
+            <ul>
+              <li><i class="fa-brands fa-square-x-twitter"></i></li>
+              <li><i class="fa-brands fa-bluesky"></i></li>
+              <li><i class="fa-brands fa-square-instagram"></i></li>
+              <li><i class="fa-brands fa-facebook-f"></i></li>
+            </ul>
+          </div>
+
+        </div>
+    </main>
+
+  </div>
 
     <script type="module" src="/src/main.ts"></script>
   </body>
